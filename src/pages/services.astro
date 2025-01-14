@@ -1,40 +1,82 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title="Projects" sideBarActiveItemID="services">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Services Header</div>
+<BaseLayout title="Services" sideBarActiveItemID="services">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Services</div>
   </div>
 
-  <HorizontalCard
-    title="Service 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    badge="NEW"
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+  <div class="mb-10 text-justify">
+    I offer freelance services focused on bringing practical AI solutions to research and development. Drawing from my experience with large language models, computer vision, and automated analysis systems, I help organizations and researchers leverage AI effectively. Below are the key services I provide, with examples of past work and specific areas of expertise.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">AI Development & Integration</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Rapid prototyping and proof-of-concept development for AI applications. I help organizations and individuals validate AI solutions through:
+    <ul class="list-disc mx-6 mb-6 grid gap-2">
+      <li>Development of AI prototype applications and demos</li>
+      <li>Proof-of-concept chatbots and conversational AI systems</li>
+      <li>Experimental setups for testing AI-driven automation</li>
+      <li>Prototypes for computer vision applications using GPT-4V and similar models</li>
+      <li>Quick validation of AI concepts for research and business cases</li>
+    </ul>
+    <div class="text-lg font-semibold mt-4 mb-2">Featured Project:</div>
+    <div class="bg-base-200 p-4 rounded-lg">
+      <span class="font-semibold">Odin Wind:</span> Odin Wind is a wind forecast chatbot for watersports, using OpenAI and customized weather forecast models. Odin notifies the user via Whatsapp when conditions are looking good. Odin listens to users feedback about current wind conditions, local spot information, hazards, and local wind effects. Crowd-based feedback is collected and organized using OpenAI and integrated in the wind model retraining pipeline.
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Integrating LLMs and Agents in Research</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Strategic guidance and hands-on training for integrating AI into research workflows. Services include:
+    <ul class="list-disc mx-6 mb-6 grid gap-2">
+      <li>Evaluation and implementation of AI tools in research processes</li>
+      <li>Advanced prompt engineering for research applications</li>
+      <li>Development of automated data analysis workflows</li>
+      <li>Custom workshops and training sessions for research teams</li>
+      <li>Technical support for AI implementation challenges</li>
+    </ul>
+    <div class="text-lg font-semibold mt-4 mb-2">Featured Projects</div>
+    <!-- <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">Large-Scale Survey Analysis</span>In a survey of 2,783 truck drivers, implemented OpenAI's API to automatically summarize open responses, extract sentiment scores, and generate Elsevier-style "highlights" from qualitative data, demonstrating efficient processing of large-scale qualitative research data.
+      </div>
+
+      <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">Vision-Language Models in Transportation:</span> Used GPT-4V for risk perception analysis in traffic scenarios, resulting in a publication in Royal Society Open Science demonstrating practical applications of vision-language models in transportation research.
+      </div>
+      
+      <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">AI-Powered Research Design:</span> Developed methods for simulating human respondents for questionnaire design and research. <a href="#" class="text-primary hover:underline">Read more about this approach in my blog post</a>.
+      </div>
+  
+    </div> -->
+    <div class="grid md:grid-cols-3 gap-3">
+     <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">Large-Scale Survey Analysis</span><br/>
+        In a survey among 3708 truck drivers, used OpenAI API to automatically summarize open responses, extract sentiment scores, and generate Elsevier-style "highlights" from qualitative data. <a href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1352979/full">Read paper here.</a>
+      </div>
+    
+      <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">Batch Image Processing</span><br/>
+        Used GPT-4V for risk perception analysis in traffic scenarios, resulting in a publication in Royal Society Open Science demonstrating practical applications of vision-language models in transportation research.
+      </div>
+      
+   <div class="bg-base-200 p-4 rounded-lg">
+        <span class="font-semibold">LLM-driven Research Methods</span><br/>
+        Developed methods for simulating human respondents for questionnaire design and research. <a href="/blog/using-chatgpt-to-create-virtual-research-participants" class="text-primary hover:underline">Read more about this approach in my blog post</a>.
+      </div>
+    </div>
+  </div>
+
+
+  <a class="btn" href="https://www.linkedin.com/in/tdries/" target="_blank">Contact via LinkedIn</a>
+ 
 </BaseLayout>

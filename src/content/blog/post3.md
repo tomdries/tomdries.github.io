@@ -1,57 +1,35 @@
 ---
-title: "Demo Post 3"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 12 2022"
-heroImage: "/post_img.webp"
-badge: "Demo badge"
-tags: ["rust","tokio"]
+title: "Using ChatGPT to Create Virtual Research Participants"
+description: "An Exploration of AI-Generated Personas in Personality Research"
+pubDate: "August 1 2024"
+heroImage: "/images/gpt-personas.png"
+tags: ["research paper"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
+* The <a href="https://doi.org/10.1016/j.paid.2024.112729" target="_blank">full research paper</a> was recently published in Personality and Individual Differences. Below is a summary.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
+*Can ChatGPT simulate human respondents? In this study, we let GPT-4 create personas and reply to personality research questionnaires. We observe human-like patterns, but also observe differences. We conclude that LLMs like ChatGPT hold promise for domains reaching from questionnaire research to product design, though it certainly raises interesting further questions.*
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
+Traditional personality research heavily relies on questionnaires, which come with inherent limitations. Respondents might give socially desirable answers, get fatigued, or simply not have time to participate. This got us thinking: Could large language models like ChatGPT help in preliminary personality research?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
+In our study, we had ChatGPT generate 2,000 text-based personas - fictional characters with specific ages, genders, and brief personality descriptions. For each persona, we had ChatGPT complete several well-known personality questionnaires, including a short version of the Big Five Inventory (BFI-10) and scales measuring sensation-seeking and dark personality traits.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+The results were intriguing. When we analyzed how ChatGPT scored these personas on the Big Five personality dimensions (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism), we found clear patterns that aligned with human psychology research. The average scores for different questionnaire items correlated strongly (r = 0.93) with previously published human data.
+
+However, we also noticed some interesting differences. ChatGPT's personas showed more extreme scores than human respondents typically do. Some correlations between personality traits also differed from what we see in human studies. For example, while humans typically show a positive correlation between extraversion and conscientiousness, ChatGPT's personas showed a negative correlation.
+
+We then explored whether changing how we asked ChatGPT to create personas would affect the results. We tried generating more realistic personas, personas with explicit personality descriptions, and even cinematic characters. Each approach yielded slightly different patterns in the personality traits, highlighting how the input prompts influence the outcomes.
+
+What does this mean for the future of personality research? While our method isn't ready to replace traditional research with human participants, it shows promise for several applications:
+
+- Testing questionnaires before using them with real participants
+- Exploring how different types of questions might affect responses
+- Training and education in personality research
+- Developing more diverse personas for product design
+- Creating more realistic characters for games and simulations
+
+The study cost about $1,500 in API credits and took several days to complete, so there's room for improvement in efficiency. However, as language models continue to advance we expect them to rapidly become cheaper, and these types of applications could become increasingly practical.
+
+This research represents an early step in exploring how AI can complement traditional personality research methods. While it perhaps raises more questions than it answers, it opens up exciting possibilities for future research at the intersection of artificial intelligence and psychology.
+
+<a href="https://doi.org/10.1016/j.paid.2024.112729" target="_blank">Link to the full paper</a>
