@@ -1,6 +1,6 @@
 ---
-title: "Using ChatGPT to Create Virtual Research Participants"
-description: "An Exploration of AI-Generated Personas in Personality Research"
+title: "Using the GPT-4 API to create virtual research participants"
+description: "AI-generated personas exhibit human-like answering in traditional personality tests"
 pubDate: "August 1 2024"
 heroImage: "/images/gpt-personas.png"
 tags: ["research paper"]

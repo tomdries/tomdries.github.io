@@ -1,5 +1,5 @@
 ---
-title: "GPT-4V Risk Perception in Traffic Images Correlates Strongly With Human Risk Perception"
+title: "GPT-4V rates risk in driving situations similarly to humans"
 description: "Findings published in Royal Society Open Science"
 pubDate: "Aug 1 2023"
 heroImage: "/images/risk-correlation.png"

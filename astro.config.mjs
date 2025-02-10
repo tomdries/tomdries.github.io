@@ -7,6 +7,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   // site: 'https://astrofy-template.netlify.app',
   site: 'https://tomdries.github.io',
-  base: '/homepage2',
+  // base: '/homepage2',
   integrations: [mdx(), sitemap(), tailwind()]
 });
