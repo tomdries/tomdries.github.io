@@ -1,5 +1,5 @@
 ---
-title: "Predicting Damage Incidents and Fines using Truck Driving Data"
+title: "Predicting damage incidents and fines using truck driving data"
 description: "Analysis published by Transportation Research Record"
 pubDate: "Jan 10 2024"
 heroImage: "/images/trucks.jpg"
