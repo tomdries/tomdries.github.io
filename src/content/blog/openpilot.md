@@ -7,7 +7,7 @@ tags: ["phd", "openpilot"]
 ---
 *The <a href="https://doi.org/10.3390/robotics13120169" target="_blank">full research paper</a> was recently published in MDPI Robotics. Below is a summary.*
 
-Many car insurance policies now <a href="https://www.anwb.nl/verzekeringen/autoverzekering/veilig-rijden" target="_blank">offer discounts</a> based on your driving behavior. Using driving event recorders, data points such as harsh braking, high accelerations, or speed threshold exceedances, are monitored. 
+Many car insurance policies now offer discounts based on your driving behavior. Using driving event recorders, data points such as harsh braking, high accelerations, or speed threshold exceedances, are monitored. 
 
 Although some of these data points do predict damage involvement, <a href="https://doi.org/10.1177/03611981231211897" target="_blank">as we have previously shown</a>, they come with limitations. The primary issue is their lack of context. For example, in urban areas it is expected somebody will need to brake hard more often than in rural areas. Similarly, what appears to be aggressive braking based on acceleration measures, might actually have been an appropriate response to an unexpected event. By relying solely on acceleration-based metrics, we risk misclassifying necessary safety maneuvers as risky behavior.
 

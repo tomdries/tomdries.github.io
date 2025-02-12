@@ -1,7 +1,7 @@
 ---
 title: "GPT-4V rates risk in driving situations similarly to humans"
 description: "Findings published in Royal Society Open Science"
-pubDate: "Aug 1 2023"
+pubDate: "January 12 2024"
 heroImage: "/images/risk-correlation.png"
 tags: ["phd", "research paper"]
 ---
